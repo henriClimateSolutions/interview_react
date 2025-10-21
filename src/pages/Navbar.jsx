@@ -1,4 +1,4 @@
-import './Navbar.css'
+import '../css/Navbar.css'
 import { useNavigate } from 'react-router-dom'
 
 export const Navbar = () => {
@@ -9,7 +9,7 @@ export const Navbar = () => {
 			<ul id="nav-menu">
 				<li>Projects</li>
 				<li>Documents</li>
-				<li>Store</li>
+				<li onClick={(e) => nav("/about-us")}>About Us</li>
 			</ul>
 			<button onClick={() => nav("/login")}>Login</button>
 		</nav>
