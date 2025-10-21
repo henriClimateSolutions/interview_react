@@ -1,5 +1,9 @@
 import '../css/Login.css'
 
+const URL = 'https://www.novatus.io/login';
+const METHOD = 'POST';
+// JSON string with username = climate, password = solutions
+
 export const FormField = ({ type, field }) => {
 	return (
 		<div className="w-full flex flex-col items-start gap-1">
