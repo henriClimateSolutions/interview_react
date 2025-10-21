@@ -1,0 +1,10 @@
+nav {
+	position: fixed;
+	background-color: var(--elem-color);
+	font-size: 1.2rem;
+	z-index: 100;
+}
+
+nav> :first-child {
+	font-size: 1.5rem;
+}
